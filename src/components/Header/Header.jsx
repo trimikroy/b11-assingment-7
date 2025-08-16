@@ -1,10 +1,13 @@
 import React from 'react';
 import Navbar from './Navbar';
+import Hero from './Hero';
+
 
 const Header = () => {
     return (
-        <div>
+        <div className=''>
            <Navbar></Navbar>
+           <Hero></Hero>
         </div>
     );
 };
